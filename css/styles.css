@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'FuturaMediumC';
+  src: url('/font/FuturaMediumC.eot');
+  src: url('/font/FuturaMediumC.eot?#iefix') format('embedded-opentype'),
+  url('/font/FuturaMediumC.woff2') format('woff2'),
+  url('/font/FuturaMediumC.woff') format('woff'),
+  url('/font/FuturaMediumC.ttf') format('truetype'),
+  url('/font/FuturaMediumC.svg#FuturaMediumC') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+html,body{
+  font-family: 'FuturaMediumC';
+  height:100%;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+}
+.wrapper{
+  padding: 80px 100px;
+  height: 100%;
+}
+.wrapper > .row{
+  height:100%;
+}
+.wrapper > .row > .col-md-8{
+  align-self: flex-end;
+}
+img{
+  max-width:100%;
+}
+a{
+  color:#4A90E2 !important;
+}
+
+
+@media (max-width: 767px){
+  .wrapper{
+    padding:40px 20px;
+  }
+  .wrapper > .row > .col-md-4{
+    text-align: center;
+    padding-bottom:30px;
+  }
+  .wrapper > .row > .col-md-8 {
+    align-self: auto;
+    padding-bottom: 40px;
+  }
+  .foo .col-6 {
+    margin-top: 30px;
+  }
+  .wrapper > .row {
+    height: auto;
+  }
+  .row.foo {
+    margin-top: -30px;
+  }
+  img {
+    max-width: 264px;
+  }
+
+}
